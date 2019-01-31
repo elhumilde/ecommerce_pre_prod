@@ -1,0 +1,71 @@
+prestation:
+    pattern:  /Prestation
+    defaults: { _controller: EcommerceBundle:Produits:prestation   }
+marque:
+    pattern:  /Marque
+    defaults: { _controller: EcommerceBundle:Produits:marque   }
+rubrique:
+    pattern:  /Rubrique
+    defaults: { _controller: EcommerceBundle:Produits:rubrique   }
+carte_visite:
+    pattern:  /Carte de visite
+    defaults: { _controller: EcommerceBundle:Produits:cartevisite   }
+video:
+    pattern:  /Vidéo
+    defaults: { _controller: EcommerceBundle:Produits:video   }
+
+catalogue_reference:
+    pattern:  /Catalogue en lignes
+    defaults: { _controller: EcommerceBundle:Produits:catalogue   }
+pvi:
+    pattern:  /PVI
+    defaults: { _controller: EcommerceBundle:Produits:pvi   }
+banniere:
+    pattern:  /Bannière classique
+    defaults: { _controller: EcommerceBundle:Produits:banniere   }
+vignette_thematique:
+    pattern:  /Vignette thematique
+    defaults: { _controller: EcommerceBundle:Produits:vignetteT   }
+vignette_localte:
+    pattern:  /Vignette localté
+    defaults: { _controller: EcommerceBundle:Produits:vignetteL }
+vignette_accueil_video:
+    pattern:  /Vignette Classique
+    defaults: { _controller: EcommerceBundle:Produits:vignetteav   }
+professionnels:
+    pattern:  /Professionnels du jour
+    defaults: { _controller: EcommerceBundle:Produits:professionnels   }
+espace_promo:
+    pattern:  /Espace promo
+    defaults: { _controller: EcommerceBundle:Produits:espacepromo   }
+habillage:
+    pattern:  /Habillage
+    defaults: { _controller: EcommerceBundle:Produits:habillage  }
+
+
+profession:
+    pattern:  /Profession libérale
+    defaults: { _controller: EcommerceBundle:Produits:professionL  }
+
+site_internet:
+    pattern:  /Site internet
+    defaults: { _controller: EcommerceBundle:Produits:site  }
+
+catalogue_ref:
+    pattern:  /Catalogue en ligne
+    defaults: { _controller: EcommerceBundle:Produits:catalogueref  }
+autres_profession:
+    pattern:  /Autres professions libérales
+    defaults: { _controller: EcommerceBundle:Produits:autresProfession  }
+banniere_Extensible:
+    pattern:  /Banniere Extensible
+    defaults: { _controller: EcommerceBundle:Produits:banniereExtensible  }
+facebookAds:
+    pattern:  /Facebook ads
+    defaults: { _controller: EcommerceBundle:Produits:facebookAds  }
+audit:
+    pattern:  /Audit
+    defaults: { _controller: EcommerceBundle:Produits:audit  }
+vignetteExtensible:
+    pattern:  /Vignette Extensible
+    defaults: { _controller: EcommerceBundle:Produits:vignetteExtensible  }
